@@ -1,0 +1,41 @@
+.toggle-switch {
+    position: relative;
+
+    > .switchInput {
+        display: none;
+    }
+
+    > .switchLabel {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 4.5rem;
+        height: 2.5rem;
+        border-radius: 999px;
+        background: color(neutral-light-grayish-blue);
+        transition: background 0.2s ease-in-out;
+        padding: 0 0.3rem;
+
+        &:hover {
+            background: color(primary-strong-cyan);
+        }
+
+        &:focus {
+            background: color(primary-strong-cyan);
+        }
+
+        .circle {
+            // box-sizing:unset;
+            height: 1.85rem;
+            width: 1.85rem;
+            border-radius: 999px;
+            // border: darkslategray solid .1rem;
+            background: white;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.45);
+        }
+    }
+
+    > .switchInput:checked + .switchLabel {
+        justify-content: flex-end;
+    }
+}
