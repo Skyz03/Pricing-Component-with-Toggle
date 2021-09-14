@@ -95,4 +95,29 @@ body {
 .header--wrap .heading {
   font-size: 1.5rem;
   opacity: 0.7;
+}
+
+.choose-billing--wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 33ch;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 550px) {
+  .choose-billing--wrap {
+    max-width: 43rem;
+  }
+}
+.choose-billing--wrap .toggle-switch {
+  margin: 0 1rem;
+}
+
+.billingLabel {
+  font-size: 1.3rem;
+  color: color(neutral-lighter-dark-desaturated-blue);
+  letter-spacing: 0.02rem;
 }/*# sourceMappingURL=main.css.map */

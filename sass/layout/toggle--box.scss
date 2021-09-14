@@ -1,0 +1,24 @@
+.choose-billing--wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 33ch;
+  flex-wrap: wrap;
+  @include desktopSize {
+    max-width: 43rem;
+  }
+
+  // 🔻this is the toggle component
+  .toggle-switch {
+    margin: 0 1rem;
+  }
+}
+
+.billingLabel {
+  font-size: 1.3rem;
+  color: color(neutral-lighter-dark-desaturated-blue);
+  letter-spacing: 0.02rem;
+}
