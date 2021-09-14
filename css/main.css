@@ -58,22 +58,16 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
-  width: 4.5rem;
-  height: 2.5rem;
+  width: 3.5rem;
+  height: 2rem;
   border-radius: 999px;
   background: #6d708d;
   transition: background 0.2s ease-in-out;
   padding: 0 0.3rem;
 }
-.toggle-switch > .switchLabel:hover {
-  background: color(primary-strong-cyan);
-}
-.toggle-switch > .switchLabel:focus {
-  background: color(primary-strong-cyan);
-}
 .toggle-switch > .switchLabel .circle {
-  height: 1.85rem;
-  width: 1.85rem;
+  height: 1.5rem;
+  width: 1.5rem;
   border-radius: 999px;
   background: white;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.45);
@@ -101,15 +95,15 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 3rem;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
   width: 100%;
   max-width: 33ch;
   flex-wrap: wrap;
 }
 @media only screen and (min-width: 550px) {
   .choose-billing--wrap {
-    max-width: 43rem;
+    max-width: 15rem;
   }
 }
 .choose-billing--wrap .toggle-switch {
@@ -117,7 +111,7 @@ body {
 }
 
 .billingLabel {
-  font-size: 1.3rem;
-  color: color(neutral-lighter-dark-desaturated-blue);
+  font-size: 0.8rem;
   letter-spacing: 0.02rem;
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */

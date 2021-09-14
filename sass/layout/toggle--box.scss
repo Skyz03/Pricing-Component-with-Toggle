@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 3rem;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
   width: 100%;
   max-width: 33ch;
   flex-wrap: wrap;
   @include desktopSize {
-    max-width: 43rem;
+    max-width: 15rem;
   }
 
   // 🔻this is the toggle component
@@ -18,7 +18,8 @@
 }
 
 .billingLabel {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   color: color(neutral-lighter-dark-desaturated-blue);
   letter-spacing: 0.02rem;
+  opacity: 0.5;
 }

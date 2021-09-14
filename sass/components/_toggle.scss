@@ -9,10 +9,10 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    width: 4.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 2rem;
     border-radius: 999px;
-    background: map-get($colors, grayish-blue);
+    background: color(grayish-blue);
     transition: background 0.2s ease-in-out;
     padding: 0 0.3rem;
 
@@ -25,11 +25,9 @@
     }
 
     .circle {
-      //   box-sizing: unset;
-      height: 1.85rem;
-      width: 1.85rem;
+      height: 1.5rem;
+      width: 1.5rem;
       border-radius: 999px;
-      //   border: darkslategray solid 0.1rem;
       background: white;
       box-shadow: 0 0 1px rgba(0, 0, 0, 0.45);
     }
