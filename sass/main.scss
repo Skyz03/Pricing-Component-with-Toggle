@@ -1,4 +1,5 @@
 @import "abstracts/mixins", "abstracts/variables", "abstracts/functions";
 @import "base/resets", "base/typography";
 @import "components/toggle";
-@import "layout/main--container", "layout/header", "layout/toggle--box.scss";
+@import "layout/main--container", "layout/header", "layout/toggle--box.scss",
+  "layout/card.scss";

@@ -52,6 +52,7 @@ ol[role=list] {
 body {
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
+  background-color: #f6f6fe;
 }
 
 .toggle-switch {
@@ -103,13 +104,6 @@ body {
   margin-top: 2.5rem;
 }
 
-.card {
-  padding: 2rem;
-  text-align: center;
-  background-color: #f6f6fe;
-  margin: 1rem;
-}
-
 .header--wrap {
   text-align: center;
   background-position: center;
@@ -142,4 +136,14 @@ body {
   font-size: 0.8rem;
   letter-spacing: 0.02rem;
   opacity: 0.5;
+}
+
+.card {
+  padding: 3rem;
+  text-align: center;
+  background-color: #fff;
+}
+.card p {
+  opacity: 0.5;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=main.css.map */
