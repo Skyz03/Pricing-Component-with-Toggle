@@ -1,3 +1,5 @@
+@import "../abstracts/mixins";
+
 .main {
   width: 100%;
   height: auto;
@@ -9,4 +11,16 @@
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
+}
+
+.card-container {
+  @include flexCenter;
+  margin-top: 2.5rem;
+}
+
+.card {
+  padding: 2rem;
+  text-align: center;
+  background-color: color(very-light-grayish-blue);
+  margin: 1rem;
 }
