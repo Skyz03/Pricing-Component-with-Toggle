@@ -1,7 +1,8 @@
 .card {
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
   background-color: #fff;
+  box-shadow: 5px 7px 20px 5px gray;
 
   p {
     opacity: 0.8;
@@ -42,4 +43,8 @@
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+}
+
+.card::second-child {
+  background: red;
 }
