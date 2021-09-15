@@ -6,6 +6,7 @@
   p {
     opacity: 0.8;
     font-size: 0.9rem;
+    font-weight: 600;
   }
 
   h1 {
@@ -14,21 +15,24 @@
   }
 
   li:first-child {
-    border-top: 1px solid color(grayish-blue);
+    border-top: 1px solid color(light-grayish-blue);
   }
 
   li {
     font-size: 0.8rem;
+    font-weight: 700;
     opacity: 0.8;
-    border-bottom: 1px solid color(grayish-blue);
+    border-bottom: 1px solid color(light-grayish-blue);
     padding: 1rem 0;
   }
 
   button {
+    font-size: 0.7rem;
+    font-weight: 600;
     margin-top: 2rem;
     padding: 0.8rem 5rem;
     background: linear-gradient(
-      45deg,
+      55deg,
       color(linear-gradient1),
       color(linear-gradient2)
     );
@@ -37,6 +41,5 @@
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 700;
   }
 }

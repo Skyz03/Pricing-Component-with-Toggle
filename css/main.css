@@ -1,5 +1,5 @@
 /* Box sizing rules */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 *,
 *::before,
 *::after {
@@ -146,28 +146,31 @@ body {
 .card p {
   opacity: 0.8;
   font-size: 0.9rem;
+  font-weight: 600;
 }
 .card h1 {
   margin: 1rem 0;
   font-size: 3.5rem;
 }
 .card li:first-child {
-  border-top: 1px solid #6d708d;
+  border-top: 1px solid #b3b5c6;
 }
 .card li {
   font-size: 0.8rem;
+  font-weight: 700;
   opacity: 0.8;
-  border-bottom: 1px solid #6d708d;
+  border-bottom: 1px solid #b3b5c6;
   padding: 1rem 0;
 }
 .card button {
+  font-size: 0.7rem;
+  font-weight: 600;
   margin-top: 2rem;
   padding: 0.8rem 5rem;
-  background: linear-gradient(45deg, #a3a8f0, #696fdd);
+  background: linear-gradient(55deg, #a3a8f0, #696fdd);
   border: 0;
   border-radius: 10px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
