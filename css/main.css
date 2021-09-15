@@ -144,6 +144,30 @@ body {
   background-color: #fff;
 }
 .card p {
-  opacity: 0.5;
+  opacity: 0.8;
   font-size: 0.9rem;
+}
+.card h1 {
+  margin: 1rem 0;
+  font-size: 3.5rem;
+}
+.card li:first-child {
+  border-top: 1px solid #6d708d;
+}
+.card li {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  border-bottom: 1px solid #6d708d;
+  padding: 1rem 0;
+}
+.card button {
+  margin-top: 2rem;
+  padding: 0.8rem 5rem;
+  background: linear-gradient(45deg, #a3a8f0, #696fdd);
+  border: 0;
+  border-radius: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
