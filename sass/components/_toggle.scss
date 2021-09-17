@@ -12,16 +12,16 @@
     width: 3.5rem;
     height: 2rem;
     border-radius: 999px;
-    background: color(grayish-blue);
+    background: color(linear-gradient2);
     transition: background 0.2s ease-in-out;
     padding: 0 0.3rem;
 
     &:hover {
-      background: color(primary-strong-cyan);
+      background: color(grayish-blue);
     }
 
     &:focus {
-      background: color(primary-strong-cyan);
+      background: color(dark-grayish-blue);
     }
 
     .circle {

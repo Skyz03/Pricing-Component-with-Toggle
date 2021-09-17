@@ -68,9 +68,15 @@ body {
   width: 3.5rem;
   height: 2rem;
   border-radius: 999px;
-  background: #6d708d;
+  background: #1720cf;
   transition: background 0.2s ease-in-out;
   padding: 0 0.3rem;
+}
+.toggle-switch > .switchLabel:hover {
+  background: #6d708d;
+}
+.toggle-switch > .switchLabel:focus {
+  background: #494c5f;
 }
 .toggle-switch > .switchLabel .circle {
   height: 1.5rem;
@@ -175,13 +181,19 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.card button:hover {
+  background: #fff;
+  border: 1px solid #1720cf;
+  color: #1720cf;
+  cursor: pointer;
+}
 
 .card:nth-child(1) {
   border-radius: 15px 0 0 15px;
 }
 
 .card:nth-child(2) {
-  background-image: linear-gradient(45deg, #a3a8f0, #1720cf);
+  background-image: linear-gradient(180deg, #a3a8f0, #1720cf);
   padding: 3rem 2rem;
   border-radius: 15px;
   color: #fff;
@@ -191,6 +203,12 @@ body {
 .card:nth-child(2) button {
   background: #fff;
   color: #1720cf;
+}
+.card:nth-child(2) button:hover {
+  background: #1720cf;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
 }
 
 .card:nth-child(3) {
