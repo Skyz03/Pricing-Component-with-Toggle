@@ -213,4 +213,37 @@ body {
 
 .card:nth-child(3) {
   border-radius: 0 15px 15px 0;
+}
+
+@media (max-width: 480px) {
+  .main {
+    background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+    background-size: 30%, 30%;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 15px 0;
+  }
+
+  .card:nth-child(1) {
+    border-radius: 15px;
+    box-shadow: none;
+  }
+
+  .card:nth-child(2) {
+    border-radius: 15px;
+  }
+
+  .card:nth-child(3) {
+    border-radius: 15px;
+    box-shadow: none;
+  }
 }/*# sourceMappingURL=main.css.map */
