@@ -8,12 +8,6 @@ function priceChange() {
   for (let i = 0; i < noOfElements; i++) {
 
     let priceElements = document.querySelectorAll(".price");
-
-    // let element = priceElements.textContent;
-    // console.log(element);
-    // let numberElements = (parseFloat(element)).toFixed(2);
-    // console.log(numberElements);
-
     if (SWITCH_CHECKBOX.checked === true) {
 
       priceElements[0].innerHTML = "$19.99";

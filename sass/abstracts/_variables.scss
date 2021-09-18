@@ -1,8 +1,18 @@
 $colors: (
-  very-light-grayish-blue: hsl(240, 78%, 98%),
-  light-grayish-blue: hsl(234, 14%, 74%),
-  grayish-blue: hsl(233, 13%, 49%),
-  dark-grayish-blue: hsl(232, 13%, 33%),
-  linear-gradient1: hsl(236, 72%, 79%),
-  linear-gradient2: hsl(237, 80%, 45%),
+  light-grayish-blue: hsl(240, 78%, 98%),
+  light-grayish-blue2: hsl(234, 14%, 74%),
+  light-grayish-blue3: hsl(233, 13%, 49%),
+  light-grayish-blue4: hsl(232, 13%, 33%),
+  light-gradient1: hsl(236, 72%, 79%),
+  light-gradient2: hsl(237, 80%, 45%),
 );
+// @mixin theme($light-theme: true) {
+//   @if $light-theme {
+//     background: darken(#fff, 100%);
+//     color: lighten(#000, 100%);
+//   }
+// }
+
+// .light {
+//   @include theme($light-theme: true);
+// };
