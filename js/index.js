@@ -15,12 +15,22 @@ function priceChange() {
       priceElements[0].innerHTML = "$19.99";
       priceElements[1].innerHTML = "$24.99";
       priceElements[2].innerHTML = "$39.99";
+
+      //  Adding Dark Mode 
       document.getElementById("body").classList.add('light')
+      document.getElementById("card").classList.add('light')
+      document.getElementById("card2").classList.add('light')
+
     } else {
       priceElements[0].innerHTML = "$199.99";
       priceElements[1].innerHTML = "$249.99";
       priceElements[2].innerHTML = "$399.99";
+
+      // Removing Dark mode 
       document.getElementById("body").classList.remove('light')
+      document.getElementById("card").classList.remove('light')
+      document.getElementById("card2").classList.remove('light')
+
     }
   }
 }

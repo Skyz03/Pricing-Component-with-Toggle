@@ -13,18 +13,7 @@ $colors: (
   dark-gradient2: darken(hsl(237, 80%, 45%), 100%),
 );
 
-// @mixin theme($light-theme: true) {
-//   @if $light-theme {
-//     background-color: #000;
-//     color: blue;
-//   }
-// }
-
 .light {
-  background-color: #000;
-  color: blue;
+  background-color: #000 !important;
+  color: #fff !important;
 }
-
-// :export {
-//   $light-theme: true;
-// }
