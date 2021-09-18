@@ -15,11 +15,12 @@ function priceChange() {
       priceElements[0].innerHTML = "$19.99";
       priceElements[1].innerHTML = "$24.99";
       priceElements[2].innerHTML = "$39.99";
-      // variables = false;
+      document.getElementById("body").classList.add('light')
     } else {
       priceElements[0].innerHTML = "$199.99";
       priceElements[1].innerHTML = "$249.99";
       priceElements[2].innerHTML = "$399.99";
+      document.getElementById("body").classList.remove('light')
     }
   }
 }
