@@ -5,14 +5,25 @@ $colors: (
   light-grayish-blue4: hsl(232, 13%, 33%),
   light-gradient1: hsl(236, 72%, 79%),
   light-gradient2: hsl(237, 80%, 45%),
+  dark-grayish-blue: #000,
+  dark-grayish-blue2: darken(hsl(234, 14%, 74%), 100%),
+  dark-grayish-blue3: darken(hsl(233, 13%, 49%), 100%),
+  dark-grayish-blue4: darken(hsl(232, 13%, 33%), 100%),
+  dark-gradient1: darken(hsl(236, 72%, 79%), 100%),
+  dark-gradient2: darken(hsl(237, 80%, 45%), 100%),
 );
-// @mixin theme($light-theme: true) {
-//   @if $light-theme {
-//     background: darken(#fff, 100%);
-//     color: lighten(#000, 100%);
-//   }
-// }
 
-// .light {
-//   @include theme($light-theme: true);
-// };
+@mixin theme($light-theme: true) {
+  @if $light-theme {
+    background-color: #000;
+    color: blue;
+  }
+}
+
+.light {
+  @include theme($light-theme: true);
+}
+
+:export {
+  $light-theme: true;
+}

@@ -1,3 +1,5 @@
+// import variables from "../sass/abstracts/variables"
+
 let SWITCH_CHECKBOX = document.querySelector("#switch");
 
 //creation of the loop for selecting the price elements
@@ -13,6 +15,7 @@ function priceChange() {
       priceElements[0].innerHTML = "$19.99";
       priceElements[1].innerHTML = "$24.99";
       priceElements[2].innerHTML = "$39.99";
+      // variables = false;
     } else {
       priceElements[0].innerHTML = "$199.99";
       priceElements[1].innerHTML = "$249.99";

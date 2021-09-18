@@ -1,5 +1,10 @@
-/* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+.light {
+  background-color: #000;
+  color: blue;
+}
+
+/* Box sizing rules */
 *,
 *::before,
 *::after {
